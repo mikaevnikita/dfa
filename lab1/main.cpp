@@ -44,7 +44,7 @@ void dfa_multiply_four(string s, function<void(multiply_four_states)> f){
 
 int main()
 {
-    string num = "1001";//Число в двоичной системе счисления
+    string num = "1000";//Число в двоичной системе счисления
     dfa_multiply_four(num, [](multiply_four_states curr_state)->void{
         cout << "Current state: " << curr_state << endl;
     });
